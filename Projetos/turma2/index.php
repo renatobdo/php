@@ -15,7 +15,6 @@
     <title>Serenatto - Cardápio</title>
 </head>
 <body>
-
     <main>
         <section class="container-banner">
             <div class="container-texto-banner">
@@ -23,9 +22,6 @@
             </div>
         </section>
         <h2>Cardápio Digital</h2>
-        <?php require "configuracao.php"; 
-         echo "olá, estou programando em php"; ?>
-
         <section class="container-cafe-manha">
             <div class="container-cafe-manha-titulo">
                 <h3>Opções para o Café</h3>
