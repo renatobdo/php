@@ -5,6 +5,7 @@ nome varchar(40),
 email varchar(255) primary key,
 senha varchar(255));
 select * from usuario;
-insert into usuario ("Renato Bueno","renato.bueno@ifsp.edu.br",
+delete from usuario;
+
 
 
