@@ -1,9 +1,10 @@
 create database cafebistro_phpt2;
 use cafebistro_phpt2;
-create table usuario (id int auto_increment primary key,
+create table usuario (
 nome varchar(40),
-email varchar(255),
+email varchar(255) primary key,
 senha varchar(255));
-insert into usuario values (1, 'admin', 
-'admin@ifsp.edu.br', 'phpt2');
 select * from usuario;
+insert into usuario ("Renato Bueno","renato.bueno@ifsp.edu.br",
+
+
